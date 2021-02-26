@@ -24,7 +24,8 @@ body{
 	}
 header nav.navbar-top{
 	background-color: black;
-
+	padding-top: 0!important;
+	padding-bottom: 0!important;
 }
 .menu-top{
 	margin-right: 20px;
@@ -110,7 +111,7 @@ section#end{
 section#end a{
 	text-decoration: none;
 	color:#AAA ;
-	display: flex!important;
+	display: grid!important;
 	justify-content: center;
 	padding-top: 20px;
 	padding-bottom:20px; 
